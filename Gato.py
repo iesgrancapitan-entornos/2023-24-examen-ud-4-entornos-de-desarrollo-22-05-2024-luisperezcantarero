@@ -7,7 +7,12 @@ Clase Gato.
 class Gato:
 
     def maullar(self):
-        self.miau = 'maullar'  # Refactorizacion 1 Gato - Luis Pérez Cantarero
+        """
+        Función maullar de la clase Gato.
+
+        :author: Jaime Rabasco
+        """
+        self.miau = 'maullar'
         print(self.miau)
 
 
